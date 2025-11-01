@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header"></header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtit">Bienvenido a mi mundo.</span>
+            <h1 class="home__tit">Hola, Soy Lucas <span>Desarrollador Frontend.</span></h1>
+          </div>
+
+          <img src="assets/img/yo.jpg" alt="" class="home_img">
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/programando.jpg" alt="" class="about__img">
+
+          <div class="about__contenido">
+            <h2 class="section_tit">Sobre Mi</h2>
+
+            <p class="about_descripcion">
+              Soy estudiante de Ingeniería en Sistemas de Información en la UTN Córdoba, con formación en Desarrollo Web, JavaScript y React JS. Apasionado por crear soluciones digitales funcionales y bien diseñadas, busco crecer profesionalmente en desarrollo web y frontend, participando en proyectos desafiantes.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab_active" data-target="#habilidades">Habilidades</span>
+              <span class="tabs__btn" data-target="#experiencia">Experiencia</span>
+              <span class="tabs__btn" data-target="#eyc">Educación y Certificación</span>
+            </div>
+
+            <div class="tabs_contenido">
+              <div class="tabs_item tab_active" data-contenido id="habilidades">
+                <div class="tabs_data grid">
+                  <p class="tabs_descripcion">
+                    <span>Desarrollo Web Frontend</span> - Experiencia en HTML, CSS, JavaScript y React JS.<span>Creo sitios modernos, dinámicos y adaptables a distintos dispositivos.</span> 
+                  </p>
+                  <p class="tabs_descripcion">
+                    <span>Diseño y Maquetado</span> - Conocimientos en diseño gráfico y UX/UI.<span>Desarrollo de interfaces limpias, intuitivas y visualmente atractivas.</span> 
+                  </p>
+                  <p class="tabs_descripcion">
+                    <span>Ecommerce</span> - Desarrollo de tiendas online. <span>Estructura, catálogo de productos y diseño orientado a la experiencia del usuario.</span> 
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs_item" data-contenido id="experiencia">
+                <div class="tabs_data grid">
+                  <p class="tabs_descripcion">
+                    <span>Desarrollo Web Frontend</span> - Q10 Sports <span> 2023 - 2024</span> 
+                  </p>
+                  <p class="tabs_descripcion">
+                    <span>Diseño gráfico</span> - Q10 Sports <span> 2023 - 2024</span> 
+                  </p>
+                  <p class="tabs_descripcion">
+                    <span>Web ecommerce</span> - Rincón del Mate <span> 2024 - 2025</span> 
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs_item" data-contenido id="eyc">
+                <div class="tabs_data grid">
+                  <p class="tabs_descripcion">
+                    <span>Ingeniería en Sistemas de Información</span> - UTN - Facultad Regional Córdoba <span> En curso </span> 
+                  </p>
+                  <p class="tabs_descripcion">
+                    <span> Diplomatura en Desarrollo Web </span> - Coderhouse <span> 2024 – 2025 </span> 
+                  </p>
+                  <p class="tabs_descripcion">
+                    <span>Certificaciones</span> - Coderhouse <span> JavaScript - React JS </span> 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services"></section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio"></section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact"></section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer"></footer>
+
+    <!--=============== SCROLL UP ===============-->
+
+    <!--=============== EMAIL JS ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
